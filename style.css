@@ -1,0 +1,16 @@
+
+.navbar-container{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    
+}
+
+.logo-container{
+    display: flex;
+}
+
+.nav-list-container{
+    display: flex;
+}
+
