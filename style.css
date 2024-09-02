@@ -1,238 +1,239 @@
-
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
-:root{
-    --accent-color: #c28c01
+:root {
+  --accent-color: #c28c01;
 }
-ul{
-    list-style: none;
-}
-
-body{
-    font-family: sans-serif;
-}
-.title{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    height: 36%;
+ul {
+  list-style: none;
 }
 
-.title >div>h1{
-    font-size: 2.5em;
-  
+body {
+  font-family: sans-serif;
 }
-.dot-display-container{
-   height: 2vh;
-   display: flex;
-   justify-content: center;
-   margin: 7px;
-}
-.dot-display{
-    display: flex;
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-   
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 36%;
 }
 
-.dot-display >div {
-    width: 4%;
-    height: 100%;
-    
-    border-radius: 75%;
-    margin: 5px;
-    background-color: #e1e1e1;
+.title > div > h1 {
+  font-size: 2.5em;
+}
+.dot-display-container {
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  margin: 7px;
+}
+.dot-display {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
 }
 
-.first-dot{
-    
+.dot-display > div {
+  width: 4%;
+  height: 100%;
+
+  border-radius: 75%;
+  margin: 5px;
+  background-color: #e1e1e1;
 }
 
-.subtitle{
-    color: var( --accent-color);
-}
-.navbar-container{
-    display: flex;
-    height: 7vh;
-    justify-content: space-between;
-    font-weight: 600;
-
+.first-dot {
+  background-color: #c38d04 !important;
 }
 
-.logo-container{
-    display: flex;
-
-    width: 50%;
-    flex-flow: row wrap;
+.subtitle {
+  color: var(--accent-color);
 }
-.logo-container img{
-    width:7vw
-
+.navbar-container {
+  display: flex;
+  height: 7vh;
+  justify-content: space-between;
+  font-weight: 600;
 }
 
-.nav-list-container{
-    display: flex;
-    
-    width: 31%;
-    justify-content: space-between;
-    align-items: center;
+.logo-container {
+  display: flex;
+
+  width: 50%;
+  flex-flow: row wrap;
+}
+.logo-container img {
+  width: 7vw;
+}
+
+.nav-list-container {
+  display: flex;
+
+  width: 31%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-list {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 
-    width: 50%;
-    align-items: center;
+  width: 50%;
+  align-items: center;
 }
 
-.nav-list >ul{
-    display: flex;
-    justify-content: space-between;
-    width:100%;
+.nav-list > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .nav-list {
-   width: 55%;
+  width: 55%;
 }
 
-.login-button{
-    color: white;
-    background-color: red;
-    border-radius: 28px;
-    border: 0px solid black;
-    padding: 6px;
-    font-weight: 600;
-    font-size: 1em;
-    margin-left: 5px;
-    margin-right: 2px;
+.login-button {
+  color: white;
+  background-color: red;
+  border-radius: 28px;
+  border: 0px solid black;
+  padding: 6px;
+  font-weight: 600;
+  font-size: 1em;
+  margin-left: 5px;
+  margin-right: 2px;
 }
 
-.sign-up{
-    color: black;
-    background-color: rgb(218, 218, 218);
-    border-radius: 28px;
-    border: 0px solid black;
-    font-size: 1em;
-    padding: 6px;
-    margin-left: 5px;
-    margin-right: 5px;
+.sign-up {
+  color: black;
+  background-color: rgb(218, 218, 218);
+  border-radius: 28px;
+  border: 0px solid black;
+  font-size: 1em;
+  padding: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .container {
-    display: flex;
-    border: 1px solid red;
-    
-    
+  display: flex;
 }
 
-.container > div{
-    border: 1px solid red;
-    flex-grow:4;
-    height: 87vh;
+.container > div {
+  flex-grow: 4;
+  height: 87vh;
 }
 
-.middle{
- 
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
+.middle {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
 .masonry-middle {
-    height: 50% !important;
-    width: 60%;
+  height: 50% !important;
+  width: 60%;
 }
 
-.masonry-middle >div {
-    margin: 10px;
+.masonry-middle > div {
+  margin: 10px;
 }
 
-.masonry >div{
-    border: 1px solid black;
-    margin: 3px;
-    width: 42%;
-    border-radius: 15px;
-    margin-top: 10px;
+.masonry > div {
+  margin: 3px;
+  width: 44%;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.masonry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.masonry > div {
+  height: 40%;
+}
+
+.masonry-bottom-1 {
+  height: 32% !important;
+}
+
+.masonry-bottom-2 {
+  height: 22% !important;
+}
+
+.middle-div {
+  display: flex;
+  height: 55%;
+  width: 100%;
+}
+
+.mid-cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: end;
+}
+
+.mid-cards-container > div {
+  width: 26%;
+}
+
+.mid-cards-container img {
+  /* height: 100%;
+  width: 100%; */
+  border-radius: 15px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column-reverse;
+
+  height: 100%;
+}
+
+.card > div {
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+ 
+.footer {
+  background-color: #fffd92;
+  height: 6vh;
+  box-shadow: 0px 0px 50px 60px white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.down-arrow{
     
-}
-
-.masonry{
+    width: 2%;
+    height: 80%;
+    background-color:var(--accent-color);
+    border-radius: 50%;
+    transform: translateY(-10vh);
     display: flex;
-    flex-wrap: wrap;
-   align-items: center;
-    flex-direction: column-reverse;
-        
-   
+    justify-content: center;
+    align-content: center;
 }
 
-.masonry >div{
-    height: 40%;
-    
-}
-
-.masonry-bottom-1{
-    height: 32% !important;
-}
-
-.masonry-bottom-2{
-    height:  22% !important;
-}
-
-
-.middle-div{
-    display: flex;
-    height: 55%;
-    width: 100%;
-
-}
-
-.mid-cards-container{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    align-items: end;
-}
-
-.mid-cards-container >div{
-    width: 26%;
-    
-}
-
-.mid-cards-container img{
-   
-  
+.down-arrow::before{
+    font-family: FontAwesome;
+    content: "\f078";
+    color: white;
     height: 100%;
-    width: 100%;
-    border-radius: 15px;
-    
-}
-
-
-.card{
     display: flex;
-    flex-flow: column-reverse;
-    
-    height: 100%;
+    align-items: center;
 }
 
-.card > div{
-   border: 1px solid black;
-   border-radius: 15px;
-   margin-top: 10px;
-}
 
-.card > div{
-   
- }
- .footer{
-    background-color: #fffd92;
-    height: 6vh;
-    box-shadow: 0px 0px 50px 60px white;
-    position: relative;
-
- }
