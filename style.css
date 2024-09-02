@@ -6,6 +6,10 @@
 ul{
     list-style: none;
 }
+
+body{
+    font-family: sans-serif;
+}
 .title{
     display: flex;
     justify-content: center;
@@ -34,7 +38,7 @@ ul{
 .nav-list-container{
     display: flex;
     
-    width: 25%;
+    width: 31%;
     justify-content: space-between;
     align-items: center;
 }
@@ -83,16 +87,18 @@ ul{
 .container {
     display: flex;
     border: 1px solid red;
+    
+    
 }
 
 .container > div{
     border: 1px solid red;
-    flex-grow: 2.5;
+    flex-grow:4;
     height: 87vh;
 }
 
 .middle{
-    flex-grow: 4 !important;
+ 
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -119,7 +125,7 @@ ul{
 .masonry{
     display: flex;
     flex-wrap: wrap;
-   align-items: end;
+   align-items: center;
     flex-direction: column-reverse;
         
    
@@ -127,6 +133,7 @@ ul{
 
 .masonry >div{
     height: 40%;
+    
 }
 
 .masonry-bottom-1{
@@ -153,7 +160,16 @@ ul{
 }
 
 .mid-cards-container >div{
-    width: 30%;
+    width: 26%;
+    
+}
+
+.mid-cards-container img{
+   
+  
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
     
 }
 
@@ -170,3 +186,14 @@ ul{
    border-radius: 15px;
    margin-top: 10px;
 }
+
+.card > div{
+   
+ }
+ .footer{
+    background-color: #fffd92;
+    height: 6vh;
+    box-shadow: 0px 0px 50px 60px white;
+    position: relative;
+
+ }
