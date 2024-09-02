@@ -6,7 +6,12 @@
 ul{
     list-style: none;
 }
-
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 40%;
+}
 .navbar-container{
     display: flex;
     height: 7vh;
@@ -56,7 +61,7 @@ ul{
     color: white;
     background-color: red;
     border-radius: 28px;
-    border: 0px solid black;
+    /* border: 0px solid black; */
     padding: 6px;
     font-weight: 600;
     font-size: 1em;
@@ -68,7 +73,7 @@ ul{
     color: black;
     background-color: rgb(218, 218, 218);
     border-radius: 28px;
-    border: 0px solid black;
+    /* border: 0px solid black; */
     font-size: 1em;
     padding: 6px;
     margin-left: 5px;
@@ -82,9 +87,86 @@ ul{
 
 .container > div{
     border: 1px solid red;
-    flex-grow: 3.2;
+    flex-grow: 2.5;
+    height: 87vh;
 }
 
 .middle{
     flex-grow: 4 !important;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.masonry-middle {
+    height: 50% !important;
+    width: 60%;
+}
+
+.masonry-middle >div {
+    margin: 10px;
+}
+
+.masonry >div{
+    border: 1px solid black;
+    margin: 3px;
+    width: 42%;
+    border-radius: 15px;
+    margin-top: 10px;
+    
+}
+
+.masonry{
+    display: flex;
+    flex-wrap: wrap;
+   align-items: end;
+    flex-direction: column-reverse;
+        
+   
+}
+
+.masonry >div{
+    height: 40%;
+}
+
+.masonry-bottom-1{
+    height: 32% !important;
+}
+
+.masonry-bottom-2{
+    height:  22% !important;
+}
+
+
+.middle-div{
+    display: flex;
+    height: 55%;
+    width: 100%;
+
+}
+
+.mid-cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: end;
+}
+
+.mid-cards-container >div{
+    width: 30%;
+    
+}
+
+
+.card{
+    display: flex;
+    flex-flow: column-reverse;
+    
+    height: 100%;
+}
+
+.card > div{
+   border: 1px solid black;
+   border-radius: 15px;
+   margin-top: 10px;
 }
