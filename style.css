@@ -135,7 +135,7 @@ body {
 
 .container > div {
   flex-grow: 4;
-  height: 87vh;
+  height: 84vh;
 }
 
 .middle {
@@ -151,7 +151,7 @@ body {
 
 .masonry > div {
   margin: 5px;
-  width: 44%;
+  width: 49%;
   border-radius: 15px;
   margin-top: 10px;
   margin-left: 10px;
@@ -210,6 +210,7 @@ body {
 .card > div {
   border-radius: 15px;
   margin-top: 10px;
+  width: 113%;
 }
 /* Masonry section           -----------------*/
  
